@@ -14,7 +14,6 @@ $(document).ready(function() {
     $imgBody.empty();
     var inputVal = $input.val();
     getGifTastic(inputVal);
-    input.val("");
   });
 
   //Make a request to the giphy api witht he input value
