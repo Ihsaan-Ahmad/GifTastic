@@ -35,7 +35,7 @@ function addGif() {
   $("button").on("click", function() {
     var p = $(this).data("name");
     var queryURL =
-      "http://api.giphy.com/v1/gifs/search?q=" +
+      "https://api.giphy.com/v1/gifs/search?q=" +
       p +
       "&api_key=5TQIfDl6GAYoR6ZkWZa5yZYpJ8LHTeGC";
 
